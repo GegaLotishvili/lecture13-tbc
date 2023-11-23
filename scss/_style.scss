@@ -1,0 +1,61 @@
+header {
+    background-color: $chemiferi;
+    height: 100px;
+    .container {
+        @include chemicontaineri;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            font-size: 46px;
+        }
+        nav {
+            width: 500px;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                a {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+.s-1 {
+    background-color: lightpink;
+    height: 700px;
+    .container {
+        @include chemicontaineri;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        .box1 {
+            width: 150px;
+            height: 150px;
+            background-color: $chemiferi;
+        }
+        .box2 {
+            width: 150px;
+            height: 150px;
+            background-color: $chemiferi;
+        }
+        .box3 {
+            width: 150px;
+            height: 150px;
+            background-color: $chemiferi;
+        }
+        .box4 {
+            width: 150px;
+            height: 150px;
+            background-color: $chemiferi;
+        }
+        .box5 {
+            width: 150px;
+            height: 150px;
+            background-color: $chemiferi;
+        }
+    }
+}
